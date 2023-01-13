@@ -1,8 +1,9 @@
 const buttonIzracunaj = document.getElementById("izracunaj");
 const inputRange = document.getElementById("percent");
+const spanRangeValue = document.getElementById("rangeValue");
 
 function porezEvent() {
-    const spanRangeValue = document.getElementById("rangeValue");
+    
     spanRangeValue.innerText = inputRange.value;
 }
 
