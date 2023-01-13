@@ -22,7 +22,7 @@ function izracunaj() {
 
    
 }
-
+spanRangeValue.innerText = inputRange.value;
 inputRange.onmousemove = porezEvent
 buttonIzracunaj.onclick = izracunaj
 
